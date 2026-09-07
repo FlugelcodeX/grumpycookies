@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>GRUMPY COOKIES | Cakes & Birthday Celebrations</title>
+
+    <meta
+      name="description"
+      content="GRUMPY COOKIES — cakes, birthday treats, and sweet moments." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">
+          <img
+            class="brand-logo"
+            src="cookielogo.png"
+            alt="Grumpy Cookies logo" />
+
+          <span class="logo-text">
+            <strong>GRUMPY</strong>
+            <small>COOKIES</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+
+          <a href="#birthday" class="nav-order"> BIRTHDAY ORDER </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+           HERO
+      ========================== -->
+
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content reveal">
+          <img
+            class="hero-logo"
+            src="cookielogo.png"
+            alt="Grumpy Cookies logo" />
+          <span class="hero-kicker"> FRESHLY BAKED · ALWAYS GRUMPY </span>
+
+          <h1>
+            MAKE THEIR<br />
+            <span>BIRTHDAY</span><br />
+            EXTRA SWEET.
+          </h1>
+
+          <p>
+            Freshly baked cakes made for birthdays, gifts, celebrations, and the
+            people who deserve a little extra sweetness.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary">
+              SEE THE CAKES
+              <span>↓</span>
+            </a>
+
+            <a href="#birthday" class="btn btn-outline"> MAKE A REQUEST </a>
+          </div>
+        </div>
+
+        <div class="hero-badge">
+          <span>GRUMPY</span>
+          <strong>🎂</strong>
+          <small>COOKIES</small>
+        </div>
+
+        <div class="hero-floating">
+          SWEET<br />
+          MOMENTS
+        </div>
+      </section>
+
+      <!-- =========================
+           INTRO
+      ========================== -->
+
+      <section class="intro section">
+        <div class="intro-content reveal">
+          <span class="section-kicker"> WELCOME TO GRUMPY COOKIES </span>
+
+          <h2>
+            A LITTLE<br />
+            <span>CAKE</span><br />
+            GOES A LONG WAY.
+          </h2>
+
+          <p>
+            We believe birthdays deserve more than a quick greeting. From
+            celebration cakes to custom birthday requests, GRUMPY COOKIES helps
+            turn a simple celebration into a sweet little memory.
+          </p>
+
+          <a href="#menu" class="text-link">
+            SEE THE CAKE MENU
+            <span>→</span>
+          </a>
+        </div>
+<div class="cake-showcase">
+  <img
+    src="robloxcake.jpg"
+    alt="Birthday cake"
+  >
+</div>
+
+          <div class="intro-card-text">
+            <small>BAKED WITH LOVE</small>
+            <strong>ONE CAKE<br />AT A TIME.</strong>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           MENU
+      ========================== -->
+
+      <section class="menu-section section" id="menu">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker"> OUR MENU </span>
+
+            <h2>
+              PICK YOUR<br />
+              <span>COOKIE.</span>
+            </h2>
+          </div>
+
+          <p>
+            Fresh-baked cakes made for birthdays, gifts, celebrations, and every
+            little moment worth remembering.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+          <article
+            class="food-card reveal"
+            data-name="18th Cake"
+            data-price="₱850"
+            data-category="CAKE"
+            data-image="18thcake.jpg"
+            data-description="A classic celebration cake with soft layers, creamy frosting, and rich chocolate flavor.">
+            <div class="food-image">
+              <img
+                src="18thcake.jpg"
+                alt="18th Cake"
+                loading="lazy" />
+              <span class="food-category"> CAKE </span>
+            </div>
+            <div class="food-info">
+              <div>
+                <h3>18th Cake</h3>
+                <p>Soft layers · Chocolate frosting</p>
+              </div>
+              <strong>₱850</strong>
+            </div>
+          </article>
+
+          <article
+            class="food-card reveal"
+            data-name="Cars Cake"
+            data-price="₱950"
+            data-category="CAKE"
+            data-image="carscake.jpg"
+            data-description="A creamy strawberry-inspired celebration cake made for birthdays, milestones, and sweet surprises.">
+            <div class="food-image">
+              <img
+                src="carscake.jpg"
+                alt="Cars Cake"
+                loading="lazy" />
+              <span class="food-category"> CAKE </span>
+            </div>
+            <div class="food-info">
+              <div>
+                <h3>Cars Cake</h3>
+                <p>Fresh berries · Creamy frosting</p>
+              </div>
+              <strong>₱950</strong>
+            </div>
+          </article>
+
+          <article
+            class="food-card reveal"
+            data-name="Cinnamoroll Cake"
+            data-price="₱900"
+            data-category="BIRTHDAY"
+            data-image="cinnacake.jpg"
+            data-description="A colorful birthday cake with playful decoration, perfect for a fun and cheerful celebration.">
+            <div class="food-image">
+              <img
+                src="cinnacake.jpg"
+                alt="Cinnamoroll Cake"
+                loading="lazy" />
+              <span class="food-category"> BIRTHDAY </span>
+            </div>
+            <div class="food-info">
+              <div>
+                <h3>Cinnamoroll Cake</h3>
+                <p>Fun decoration · Celebration ready</p>
+              </div>
+              <strong>₱900</strong>
+            </div>
+          </article>
+
+          <article
+            class="food-card reveal"
+            data-name="Health Care Cake"
+            data-price="₱980"
+            data-category="CAKE"
+            data-image="healthcake.jpg"
+            data-description="A rich layered cake with creamy frosting and a cakes-and-cream inspired finish.">
+            <div class="food-image">
+              <img
+                src="healthcake.jpg"
+                alt="Health Care Cake"
+                loading="lazy" />
+              <span class="food-category"> CAKE </span>
+            </div>
+            <div class="food-info">
+              <div>
+                <h3>Health Care Cake</h3>
+                <p>Creamy layers · Cookie crunch</p>
+              </div>
+              <strong>₱980</strong>
+            </div>
+          </article>
+
+          <article
+            class="food-card reveal"
+            data-name="Birthday Cake"
+            data-price="₱1,000"
+            data-category="CAKE"
+            data-image="tataycake.jpg"
+            data-description="A smooth caramel cake balanced with a touch of salt for a rich sweet-and-salty finish.">
+            <div class="food-image">
+              <img
+                src="tataycake.jpg"
+                alt="Birthday Cake"
+                loading="lazy" />
+              <span class="food-category"> CAKE </span>
+            </div>
+            <div class="food-info">
+              <div>
+                <h3>Birthday Cake</h3>
+                <p>Caramel · Sweet & salty</p>
+              </div>
+              <strong>₱1,000</strong>
+            </div>
+          </article>
+
+          <article
+            class="food-card reveal"
+            data-name="Coral Cake"
+            data-price="₱1,200+"
+            data-category="CUSTOM"
+            data-image="oceancake.jpg"
+            data-description="A customizable birthday cake concept where size, flavor, colors, decorations, and theme can be discussed with the team.">
+            <div class="food-image">
+              <img
+                src="oceancake.jpg"
+                alt="Coral Cake"
+                loading="lazy" />
+              <span class="food-category"> CUSTOM </span>
+            </div>
+            <div class="food-info">
+              <div>
+                <h3>Coral Cake</h3>
+                <p>Personalized · Theme ready</p>
+              </div>
+              <strong>₱1,200+</strong>
+            </div>
+          </article>
+        </div>
+
+        <div class="menu-note reveal">
+          <span>♥</span>
+          Sample menu and prices — final availability and pricing will be
+          confirmed in Messenger.
+        </div>
+      </section>
+
+      <!-- =========================
+           ABOUT
+      ========================== -->
+
+      <section class="about-section section" id="about">
+        <div class="about-image reveal">
+          <img
+            src="dbz.jpg"
+            alt="Freshly baked chocolate cake"
+            loading="lazy" />
+
+          <div class="about-stamp">
+            <span>GRUMPY</span>
+
+            <img
+              class="about-logo"
+              src="cookielogo.png"
+              alt="Grumpy Cookies logo" />
+
+            <small>COOKIES</small>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <span class="section-kicker"> OUR STORY </span>
+
+          <h2>
+            SWEET THINGS.<br />
+            <span>SIMPLE MOMENTS.</span>
+          </h2>
+
+          <p>
+            GRUMPY COOKIES started with one simple idea: make beautiful cakes
+            that can make ordinary days — and birthdays — feel a little better.
+          </p>
+
+          <p>
+            Whether you're celebrating a birthday, surprising someone with a
+            custom cake, or simply craving something sweet, there is always room
+            for cake.
+          </p>
+
+          <div class="about-signature">
+            <span>GRUMPY COOKIES</span>
+
+            <small> CAKES · BIRTHDAYS · HAPPY MOMENTS </small>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           GALLERY
+      ========================== -->
+
+      <section class="gallery-section section" id="gallery">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker"> SWEET MOMENTS </span>
+
+            <h2>
+              LOOK GOOD.<br />
+              <span>TASTE BETTER.</span>
+            </h2>
+          </div>
+
+          <p>A few sweet reasons to treat yourself today.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-large reveal">
+            <img
+              src="dbz.jpg"
+              alt="Fresh chocolate cake"
+              loading="lazy" />
+          </div>
+
+          <div class="gallery-item reveal">
+            <img
+              src="shotcake.jpg"
+              alt="Strawberry celebration cake"
+              loading="lazy" />
+          </div>
+
+          <div class="gallery-item reveal">
+            <img
+              src="yaecake.jpg"
+              alt="Birthday cake"
+              loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           BIRTHDAY REQUEST
+      ========================== -->
+
+      <section class="birthday-section section" id="birthday">
+        <div class="birthday-wrap">
+          <div class="birthday-copy reveal">
+            <span class="section-kicker"> BIRTHDAY CAKE REQUEST </span>
+            <h2>
+              MAKE IT<br />
+              <span>PERSONAL.</span>
+            </h2>
+            <p>
+              Tell us the birthday details below. When you submit the request, a
+              birthday receipt will be generated with everything you entered.
+              Copy that receipt before opening Messenger so the Grumpy Cookies
+              team can review your request quickly.
+            </p>
+
+            <div class="birthday-points">
+              <div><span>01</span><strong>Fill in the details</strong></div>
+              <div>
+                <span>02</span><strong>Copy your birthday receipt</strong>
+              </div>
+              <div>
+                <span>03</span><strong>Open Messenger & send it</strong>
+              </div>
+            </div>
+          </div>
+
+          <form id="birthdayForm" class="birthday-form">
+            <div class="form-group">
+              <label for="customerName">Name</label>
+              <input
+                type="text"
+                id="customerName"
+                name="customerName"
+                placeholder="Your name"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="celebrantName">Birthday Celebrant</label>
+              <input
+                type="text"
+                id="celebrantName"
+                name="celebrantName"
+                placeholder="Who is celebrating?"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="birthdayDate">Birthday</label>
+              <input
+                type="date"
+                id="birthdayDate"
+                name="birthdayDate"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="quantity">Quantity</label>
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                value="1"
+                placeholder="1"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="cakeFlavor">Cake Flavor</label>
+              <select id="cakeFlavor" name="cakeFlavor" required>
+                <option value="">Select a flavor</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="Red Velvet">Red Velvet</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Ube">Ube</option>
+                <option value="Mocha">Mocha</option>
+                <option value="Custom">Custom / Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contactInfo">Contact No.</label>
+              <input
+                type="tel"
+                id="contactInfo"
+                name="contactInfo"
+                placeholder="09XX XXX XXXX"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="theme">Bday Cake Theme / Color</label>
+              <input
+                type="text"
+                id="theme"
+                name="theme"
+                placeholder="e.g. Pink floral, blue, Barbie, minimalist" />
+            </div>
+
+            <div class="form-group">
+              <label for="specialNote">Special Note</label>
+              <textarea
+                id="specialNote"
+                name="specialNote"
+                rows="4"
+                placeholder="Any special requests or instructions?"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              SUBMIT BIRTHDAY REQUEST
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- =========================
+           CTA / FACEBOOK
+      ========================== -->
+
+      <section class="cta-section section" id="contact">
+        <div class="cta-background"></div>
+
+        <div class="cta-content reveal">
+          <span class="section-kicker"> READY FOR SOMETHING SWEET? </span>
+
+          <h2>
+            READY TO MAKE<br />
+            <span>THE BIRTHDAY SWEET?</span>
+          </h2>
+
+          <p>
+            After generating your birthday receipt, copy it and send it to us
+            through Messenger. We’ll confirm the details, availability, and
+            final price with you.
+          </p>
+
+          <a
+            href="https://www.facebook.com/grumpycookies"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="facebook-btn">
+            <span class="facebook-icon"> f </span>
+
+            <span> OPEN MESSENGER </span>
+
+            <strong> ↗ </strong>
+          </a>
+
+          <small class="cta-address">
+            🎂 GRUMPY COOKIES · BIRTHDAY CAKES
+          </small>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <img
+              class="brand-logo"
+              src="cookielogo.png"
+              alt="Grumpy Cookies logo" />
+
+            <span class="logo-text">
+              <strong>GRUMPY</strong>
+              <small>COOKIES</small>
+            </span>
+          </a>
+
+          <p>
+            Fresh cakes,<br />
+            happy birthdays.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <span>EXPLORE</span>
+
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+          </div>
+
+          <div>
+            <span>CONTACT</span>
+
+            <p>Birthday & custom cake requests</p>
+            <p>Message us on Facebook</p>
+            <p>Availability confirmed in Messenger</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 GRUMPY COOKIES. Website concept.</p>
+
+        <span> CAKES · BIRTHDAYS · LOVE </span>
+      </div>
+    </footer>
+
+    <!-- =========================
+         BIRTHDAY RECEIPT
+    ========================== -->
+
+    <div class="receipt-modal" id="receiptModal" aria-hidden="true">
+      <div class="receipt-backdrop" id="receiptBackdrop"></div>
+
+      <div
+        class="receipt-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="receiptTitle">
+        <button
+          class="receipt-close"
+          id="receiptClose"
+          type="button"
+          aria-label="Close birthday receipt">
+          ×
+        </button>
+
+        <div class="receipt-confetti" aria-hidden="true">
+          <span>✦</span><span>🍪</span><span>✧</span><span>♥</span
+          ><span>✦</span>
+        </div>
+
+        <div class="receipt-top">
+          <div class="receipt-logo">
+            <img src="cookielogo.png" alt="Grumpy Cookies" />
+          </div>
+          <span>GRUMPY COOKIES</span>
+          <strong id="receiptTitle">BIRTHDAY RECEIPT</strong>
+          <small id="receiptId">REQUEST #GC-000000</small>
+        </div>
+
+        <div class="receipt-message">
+          <span>✦</span>
+          <p>Birthday magic incoming.</p>
+          <span>✦</span>
+        </div>
+
+        <div class="receipt-details" id="receiptDetails"></div>
+
+        <div class="receipt-note">
+          <strong>IMPORTANT — COPY THIS FIRST</strong>
+          <p>
+            Please copy the receipt details below <u>before</u> clicking
+            Messenger. The Messenger button opens the Grumpy Cookies Facebook
+            page so you can send this request to the team.
+          </p>
+        </div>
+
+        <div class="receipt-actions">
+          <button type="button" class="copy-receipt" id="copyReceipt">
+            COPY RECEIPT
+            <span>⧉</span>
+          </button>
+
+          <a
+            class="messenger-receipt"
+            id="messengerReceipt"
+            href="https://www.facebook.com/grumpycookies"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-disabled="true">
+            COPY RECEIPT TO UNLOCK MESSENGER
+            <span>↗</span>
+          </a>
+        </div>
+
+        <p class="receipt-status" id="receiptStatus">
+          Messenger unlocks after you copy the receipt.
+        </p>
+      </div>
+    </div>
+
+    <!-- =========================
+         FOOD MODAL
+    ========================== -->
+
+    <div class="food-modal" id="foodModal">
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+
+      <div class="modal-card">
+        <button
+          class="modal-close"
+          id="modalClose"
+          aria-label="Close menu item">
+          ×
+        </button>
+
+        <div class="modal-image">
+          <img id="modalImage" src="" alt="" />
+        </div>
+
+        <div class="modal-content">
+          <span class="section-kicker" id="modalCategory"> MENU ITEM </span>
+
+          <h2 id="modalName">Cake</h2>
+
+          <strong class="modal-price" id="modalPrice"> ₱000 </strong>
+
+          <p id="modalDescription">Delicious sweet treat.</p>
+
+          <div class="modal-divider"></div>
+
+          <p class="modal-note">
+            Want this for a birthday? Close this menu and use the birthday
+            request form below so we can prepare a complete request receipt.
+          </p>
+
+          <a href="#contact" class="modal-facebook" id="modalFacebook">
+            OPEN MESSENGER
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
